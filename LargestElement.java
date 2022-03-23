@@ -9,7 +9,7 @@ public class LargestElement {
 		//finding the max value
 		double max = 0;
 		for(int i=0;i<myList.length;i++) {
-			if( myList[i]>max)
+			if( myList[i]<max)
 				max = myList[i];
 			}
 		System.out.println("max val is: "+max);
